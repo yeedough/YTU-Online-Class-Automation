@@ -1,4 +1,8 @@
 # YTU-Online-Class-Automation
+🇬🇧 [English (README.md)](README.md)    🇹🇷 [Türkçe (BENI_OKU.tr.md)](BENI_OKU.tr.md)
+---
+This repo includes an application which lets you automate...
+(rest of your English content)
 This repo includes an application which let's you automate the joining process to the online classes through the Yildiz Online platform. It essentially is only made for Yildiz Technical University but the same method can be applied to the any other by tweaking with the run_selenium function.
 
 !!! CHROME MUST BE INSTALLED ON YOUR PC !!!
