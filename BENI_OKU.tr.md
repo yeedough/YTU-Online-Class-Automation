@@ -18,7 +18,7 @@ Eğer kütüphane bulunamadı hatası alırsanız, aşağıdaki komutları cmd'd
   pip install shelve
   pip install os
   pip install sys
-
+```
 (Bazı kütüphaneler zaten yüklü olabilir, yine de tek tek denemek en güvenli yoldur.)
 
 Bu mesajı okuduğunuz sırada kaynak kodunu repoya eklemiş ya da eklememiş olabilirim.
