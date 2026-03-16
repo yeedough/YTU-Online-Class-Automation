@@ -1,0 +1,24 @@
+Bu repo, Yildiz Online platformu üzerinden online derslere otomatik katılım sürecini otomatikleştiren bir uygulama içerir. Temelde Yıldız Teknik Üniversitesi için yapılmıştır, ancak `run_selenium` fonksiyonunda gerekli düzenlemeler yapılarak başka platformlar için de kullanılabilir.
+
+!!! BİLGİSAYARINIZDA CHROME YÜKLÜ OLMALIDIR !!!
+
+!!! Kodu çalıştıracaksanız zoom_join.png dosyasının .py dosyasıyla aynı klasörde olduğundan emin olun !!!
+
+Windows Defender, uygulamayı çalıştırmadan önce izin isteyebilir. Bunun nedeni, ekrandaki düğmeleri algılayıp tıklamaya yarayan pyautogui kütüphanesidir.
+
+Kullanımı oldukça basittir. Kimlik bilgilerinizi girip "Kaydet"e tıklayın. Ardından ya belirli bir saate ve haftanın gününe ders atayıp uygulamayı arka planda açık bırakabilirsiniz; ya da uygulamayı çalıştırıp "Şimdi Katıl" butonuna basarak manuel olarak otomatikleştirmeyi başlatabilirsiniz.
+
+Eğer kütüphane bulunamadı hatası alırsanız, aşağıdaki komutları cmd'de tek tek çalıştırarak gerekli kütüphaneleri kurun:
+
+  ```bash
+  pip install tkinter
+  pip install json
+  pip install threading
+  pip install datetime
+  pip install shelve
+  pip install os
+  pip install sys
+
+(Bazı kütüphaneler zaten yüklü olabilir, yine de tek tek denemek en güvenli yoldur.)
+
+Bu mesajı okuduğunuz sırada kaynak kodunu repoya eklemiş ya da eklememiş olabilirim.
