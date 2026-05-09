@@ -18,7 +18,7 @@ try:
     from webdriver_manager.chrome import ChromeDriverManager
 except ImportError as e:
     print(f"[HATA] Eksik paket: {e}")
-    print("Lütfen çalıştırın: pip install selenium webdriver-manager pyautogui pillow")
+    print("Lütfen calistirin: pip install selenium webdriver-manager pyautogui pillow")
     sys.exit(1)
 
 try:
